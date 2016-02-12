@@ -26,6 +26,7 @@ public abstract class BaseClassifier {
 	protected double[] m_cProbs;
 	protected double test;
 
+	test = 0.1;
 
 	//for cross-validation
 	protected int[][] m_confusionMat, m_TPTable;//confusion matrix over all folds, prediction table in each fold
